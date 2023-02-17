@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Top Header Section ------------------------------------*/
+header {
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header-top {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-section {
+    text-align: right;
+    padding: 210px 220px 165px 840px;
+}
+
+.banner-title {
+    font-weight: 700px;
+    font-size: 65px;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+/* Header Section Closed---------------------------------- */
+
+.failures-section {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+    margin: 120px 230px;
+}
+
+.right-side {
+    text-align: left;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #444343;
+}
+.right-side ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444343;
+}
+/* --- My failures of previous year section end------ */
