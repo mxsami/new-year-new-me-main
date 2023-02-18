@@ -10,6 +10,7 @@ header {
     background-image: url(../images/banner/banner2.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 
 }
 
@@ -47,14 +48,73 @@ header {
     border-radius: 5px;
     background-color: blue;
 }
-.btn-primary:hover{
-    background-color:yellowgreen;
+
+.btn-primary:hover {
+    background-color: yellowgreen;
     padding: 1%;
     color: white;
 }
 
-/* Header Section Closed---------------------------------- */
+/* Header Section Closed---------- */
+/* Extra Tour Card Section practice in project--------- */
+.card-parents {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 0 400px;
+    text-shadow: 5px solid #4ea216;
+    text-align: center;
+    padding: 5%;
+    border-radius: 5px;
+}
 
+.card-box {
+    box-shadow: -2px 4px 19px 8px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: -2px 4px 19px 8px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: -2px 4px 19px 8px rgba(0, 0, 0, 0.67);
+}
+
+/* bow-shadow made by online box-shadow generator source */
+#tour-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.card-img {
+    max-width: 400px;
+    max-height: 600px;
+    margin-bottom: 0;
+    padding: 30px 30px 10px 30px;
+}
+
+.card-box:hover {
+    background-color: blue;
+    padding: auto;
+    color: white;
+    padding: 5deg;
+}
+
+.card-title {
+    font-weight: 700;
+    font-family: 'Lobster';
+    margin-bottom: 10px;
+}
+
+.card-details {
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 10px;
+    padding: 0 10px 5px 10px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Card Section  Closed-----------------------------*/
+
+/* My Failure Section -----------------------------*/
 .failures-section {
     display: flex;
     gap: 85px;
@@ -139,8 +199,9 @@ header {
     font-weight: 800;
     margin-bottom: 80px;
 }
-.call-btn:hover{
-    background-color:yellowgreen;
+
+.call-btn:hover {
+    background-color: yellowgreen;
     padding: 1%;
     color: white;
 }
@@ -160,12 +221,14 @@ header {
     font-size: 45px;
     margin-bottom: 16px;
 }
-.subscribe-title{
+
+.subscribe-title {
     color: white;
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 16px;
 }
+
 .footer-left p {
     color: #FFFFFF;
     font-weight: 400;
@@ -173,9 +236,10 @@ header {
     margin-bottom: 16px;
     font-family: 'Work Sans', sans-serif;
 }
-.write-mail{
-    background:black;
+
+.write-mail {
+    background: black;
     border-color: #FFFFFF;
-    padding:21px 0 21px 21px;
+    padding: 21px 0 21px 21px;
     margin-bottom: 20px;
 }
