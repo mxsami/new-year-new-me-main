@@ -47,6 +47,11 @@ header {
     border-radius: 5px;
     background-color: blue;
 }
+.btn-primary:hover{
+    background-color:yellowgreen;
+    padding: 1%;
+    color: white;
+}
 
 /* Header Section Closed---------------------------------- */
 
@@ -73,11 +78,104 @@ header {
     margin-bottom: 15px;
     color: #444343;
 }
-.right-side ul li{
+
+.right-side ul li {
     list-style: none;
     margin-bottom: 12px;
     font-weight: 400;
     font-size: 20px;
     color: #444343;
 }
+
 /* --- My failures of previous year section end------ */
+.plan-section>h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-parent {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.plan-section .plan-parent .plan-box {
+    text-align: center;
+}
+
+.plan-box h2 {
+    margin: 25px 0px 16px 0px;
+}
+
+/* plan section closed */
+/* watch & Color Grading section */
+.watch {
+    justify-content: center;
+    padding-right: 617px;
+    padding-left: 60px;
+    background: linear-gradient(90deg, blue 0%, rgba(241, 91, 34, 0) 50%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 120px 230px 130px 230px;
+
+}
+
+.watch-title {
+    padding-top: 60px;
+    padding-bottom: 24px;
+}
+
+.call-btn {
+    width: 180px;
+    height: 65px;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.call-btn:hover{
+    background-color:yellowgreen;
+    padding: 1%;
+    color: white;
+}
+
+/* footer section */
+.footer-section {
+    display: flex;
+    gap: 330px;
+    justify-content: center;
+    background-color: black;
+    padding: 130px 230px;
+}
+
+.future-title {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.subscribe-title{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.footer-left p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.write-mail{
+    background:black;
+    border-color: #FFFFFF;
+    padding:21px 0 21px 21px;
+    margin-bottom: 20px;
+}
